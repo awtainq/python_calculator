@@ -1,1 +1,2 @@
-https://imgur.com/a/lrWnzSu
+
+![App screenshot](https://imgur.com/a/lrWnzSu)
