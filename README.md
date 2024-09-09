@@ -1,2 +1,2 @@
 
-![App screenshot](https://imgur.com/a/lrWnzSu)
+![App screenshot](/IMG_0109.jpeg)
