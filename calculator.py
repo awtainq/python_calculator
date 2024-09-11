@@ -109,8 +109,8 @@ def Keyboard(event):
 def adjust_font_size(event):
     new_width = event.width
     new_height = event.height
-    font_size_now = max(20, int(new_width / 20))
-    font_size_prev = max(12, int(new_width / 30))
+    font_size_now = max(20, int(new_width / 20+10))
+    font_size_prev = max(12, int(new_width / 30+5))
     frame_now.config(font=("Arial", font_size_now, "bold"))
     frame_prev.config(font=("Arial", font_size_prev))
     button_font_size = max(10, int(new_width / 40))
@@ -166,7 +166,7 @@ btn_min = Button(root, text="-", width=w, height=h, command=lambda: change_cur("
 btn_min.grid(row=3, column=3, sticky="nsew")
 btn_pls = Button(root, text="+", width=w, height=h, command=lambda: change_cur("+"))
 btn_pls.grid(row=4, column=3, sticky="nsew")
-btn_eql = Button(root, text="=", width=w * 2, height=h * 2, command=evaluate, bg="orange")
+btn_eql = Button(root, text="=", width=w * 2, height=h * 2, command=evaluate, bg="#orange")
 btn_eql.grid(row=5, column=3, columnspan=2, rowspan=2, sticky="nsew")
 btn_point = Button(root, text=".", width=w, height=h, command=lambda: change_cur("."))
 btn_point.grid(row=6, column=2, sticky="nsew")
