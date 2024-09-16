@@ -166,7 +166,7 @@ btn_min = Button(root, text="-", width=w, height=h, command=lambda: change_cur("
 btn_min.grid(row=3, column=3, sticky="nsew")
 btn_pls = Button(root, text="+", width=w, height=h, command=lambda: change_cur("+"))
 btn_pls.grid(row=4, column=3, sticky="nsew")
-btn_eql = Button(root, text="=", width=w * 2, height=h * 2, command=evaluate, bg="#orange")
+btn_eql = Button(root, text="=", width=w * 2, height=h * 2, command=evaluate, bg="orange")
 btn_eql.grid(row=5, column=3, columnspan=2, rowspan=2, sticky="nsew")
 btn_point = Button(root, text=".", width=w, height=h, command=lambda: change_cur("."))
 btn_point.grid(row=6, column=2, sticky="nsew")
